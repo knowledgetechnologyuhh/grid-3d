@@ -1,0 +1,13 @@
+**/__pycache__/
+**/.ipynb_checkpoints/
+/*.egg-info/
+/data
+/.vscode
+/.virtual_documents/
+venv/
+.venv/
+.idea/
+.DS_Store
+**/scratch.ipynb
+**/lightning_logs
+wandb/

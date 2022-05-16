@@ -22,10 +22,22 @@ The experiments in our paper were conducted with the original versions of the MA
 ## Environment Setup
 
 First, clone the repository locally:
-
 ```
 git clone https://github.com/knowledgetechnologyuhh/grid-3d.git
  ```
+
+Create and activate an environment (we use [conda](https://docs.conda.io/en/latest/) here, but any other package manager does the job, too)
+```
+conda create -n grid3d_env python=X.X
+conda activate grid3d_env
+```
+
+Install all packages listed in the `requirements.txt` file:
+```
+pip install -r requirements.txt
+```
+
+Next step is to download and extract the dataset, which we explain in the following section.
 
 ## GRiD-3D Dataset
 
@@ -43,5 +55,9 @@ wget LinkToBeInserted
 ```
 curl -O LinkToBeInserted
 ```
+
+## Training and Evaluation
+
+TBD
 
 

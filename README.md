@@ -1,7 +1,7 @@
 What is Right for Me is Not Yet Right for You:<br>A Dataset for Grounding Relative Directions via Multi-Task Learning
 ========
 
-[Paper](https://www2.informatik.uni-hamburg.de/wtm/publications/2022/LKAWW22/GRID3D_IJCAI22.pdf) • [Video](toBeInserted) • [BibTex](toBeInserted) • [Dataset Download](toBeInserted)
+[Paper](https://www2.informatik.uni-hamburg.de/wtm/publications/2022/LKAWW22/GRID3D_IJCAI22.pdf) • [Video](toBeInserted) • [BibTex](toBeInserted) • [Dataset Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip)
 
 This is the official repository associated with our [IJCAI-ECAI 2022](https://ijcai-22.org) paper, in which we present our novel VQA GRiD-3D (<u>**G**</u>rounding <u>**R**</u>elat<u>**i**</u>ve <u>**D**</u>irections in <u>**3D**</u>) dataset. The code was tested with python version X.X.X on macOS Monterey. 
 
@@ -43,17 +43,17 @@ Next step is to download and extract the dataset, which we explain in the follow
 
 ![Overview](images/dataset_overview.png)
 
-You can download the dataset by clicking [here](toBeInserted) or by running the following commands in your terminal:
+You can download the dataset by clicking [here](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip) or by running the following commands in your terminal:
 
 #### Ubuntu / Linux:
 ```
-wget LinkToBeInserted
+wget https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip
 ```
 
 #### OS X:
 
 ```
-curl -O LinkToBeInserted
+curl -O https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip
 ```
 
 ## Training and Evaluation

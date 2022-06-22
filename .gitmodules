@@ -1,0 +1,6 @@
+[submodule "src/models/film"]
+	path = src/models/film
+	url = https://github.com/dschaehi/film.git
+[submodule "src/models/mac-network-pytorch"]
+	path = src/models/mac-network-pytorch
+	url = https://github.com/dschaehi/mac-network-pytorch.git

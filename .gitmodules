@@ -1,0 +1,6 @@
+[submodule "grid3d/models/film"]
+	path = grid3d/models/film
+	url = https://github.com/dschaehi/film.git
+[submodule "grid3d/models/mac"]
+	path = grid3d/models/mac
+	url = https://github.com/dschaehi/mac-network-pytorch.git

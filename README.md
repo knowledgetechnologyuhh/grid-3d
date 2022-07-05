@@ -50,6 +50,7 @@ python -m pip install -e .
 cd grid3d/models/film
 git checkout lee/optimize
 python -m pip install -e .
+cd ../..
 ```
 
 Next step is to download and extract the dataset, which we explain in the following section.
@@ -69,6 +70,7 @@ wget https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip
 
 ```
 curl -O https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip
+unzip grid-3d.zip && rm grid-3d.zip
 ```
 
 The default path for the dataset is set to `/data/grid3d/`, but you can change the path by modifying the corresponding entry in the `train_mac.py` and `train_film.py`:

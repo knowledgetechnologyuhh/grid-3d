@@ -37,7 +37,7 @@ ipdb
 munch
 python=3.9 
 torch 
-torch-lightning=1.5.10 
+pytorch-lightning=1.5.10 
 termcolor 
 torchmetrics 
 torchvision 

@@ -79,7 +79,7 @@ cfg.TASK_SIZES.triple_classification = 166603
 ```
 
 
-### ...Want some more? Here is another dataset for grounding relative directions in 3D with abstract objects:
+### ...Want some more? Here is another VQA dataset for grounding relative directions in 3D with abstract objects:
 
 ---
 # Knowing Earlier what Right Means to You: A Comprehensive VQA Dataset for Grounding Relative Directions via Multi-Task Learning

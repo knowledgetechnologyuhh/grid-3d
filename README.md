@@ -4,19 +4,7 @@ What is Right for Me is Not Yet Right for You:<br>A Dataset for Grounding Relati
 <!-- [Paper](https://arxiv.org/abs/2205.02671) • [Video](toBeInserted) • [BibTex](toBeInserted) • [Dataset Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip) -->
 [Paper](https://arxiv.org/abs/2205.02671) • [Dataset Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip)
 
-This is the official repository associated with our [IJCAI-ECAI 2022](https://ijcai-22.org) paper, in which we present our novel VQA GRiD-3D (<u>**G**</u>rounding <u>**R**</u>elat<u>**i**</u>ve <u>**D**</u>irections in <u>**3D**</u>) dataset. The code was tested with python version 3.9 on Ubuntu 20.04. 
-
-If you find this work useful, please cite our [paper](https://www2alt.informatik.uni-hamburg.de/wtm/publications/2022/LKAWW22/index.php):
-
-```
-@InProceedings{lee_grid3d_2022,
-  author       = "Lee, Jae Hee and Kerzel, Matthias and Ahrens, Kyra and Weber, Cornelius and Wermter, Stefan",
-  title        = "What is Right for Me is Not Yet Right for You: A Dataset for Grounding Relative Directions via Multi-Task Learning",
-  booktitle    = "International Joint Conference on Artificial Intelligence",
-  year         = "2022",
-  url          = "https://arxiv.org/abs/2205.02671"
-}
-```
+This is the official repository associated with our [IJCAI-ECAI 2022](https://ijcai-22.org) paper, in which we present our novel VQA GRiD-3D (<u>**G**</u>rounding <u>**R**</u>elat<u>**i**</u>ve <u>**D**</u>irections in <u>**3D**</u>) dataset. The code was tested with python version 3.9 on Ubuntu 20.04.
 
 The experiments in our paper were conducted with the original versions of the MAC and FiLM models, which will be included as submodules in this repository.
 
@@ -57,16 +45,16 @@ Next step is to download and extract the dataset, which we explain in the follow
 
 ## GRiD-3D Dataset
 
-![Overview](images/dataset_overview.png)
+![Overview](images/grid3d_overview.png)
 
 You can download the dataset by clicking [here](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip) or by running the following commands in your terminal:
 
-#### Ubuntu / Linux:
+### Ubuntu / Linux:
 ```
 wget https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip
 ```
 
-#### OS X:
+### OS X:
 
 ```
 curl -O https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip
@@ -88,4 +76,70 @@ cfg.TASK_SIZES.link_prediction = 0 # 40770
 cfg.TASK_SIZES.relation_prediction = 69800
 cfg.TASK_SIZES.counting = 92904
 cfg.TASK_SIZES.triple_classification = 166603
+```
+
+
+### ...Want some more? Here is another dataset for grounding relative directions in 3D with abstract objects:
+
+---
+# Knowing Earlier what Right Means to You: A Comprehensive VQA Dataset for Grounding Relative Directions via Multi-Task Learning
+[Paper](https://www2.informatik.uni-hamburg.de/wtm/publications/2022/AKLWW22/STRL_2022_Camera_Ready_Version.pdf) • [Dataset Download](ToBeInserted)
+
+This is our novel GRiD-A-3D dataset accepted for the First International Workshop on Spatio-Temporal Reasoning and Learning ([STRL 2022](https://strl2022.github.io)) at [IJCAI](https://ijcai-22.org). 
+
+## Environment Setup
+
+You can set up your environment as described above, if you haven't done so yet. 
+
+## GRiD-3D Dataset
+
+Just click [here](ToBeInserted) to download the GRiD-A-3D dataset or run one of the following commands: 
+### Ubuntu / Linux:
+```
+wget ToBeInserted
+```
+
+### OS X:
+
+```
+curl -O ToBeInserted
+```
+
+## Running an Experiment
+
+Keep in mind to change the dataset path in the config file (the default is XXX):
+```
+cfg.DATASET.PATH = "path/to/the/dataset/folder"
+```
+If you have downloaded both GRiD-3D and GRiD-A-3D datasets, don't forget to adjust the path to the desired dataset every time you run a new experiment.
+
+---
+
+![Overview](images/grid-a-3d_overview.jpg)
+
+---
+
+## Cite our Work
+
+If you find our work on grounding relative directions useful, please cite our work:
+
+```
+@InProceedings{lee_grid3d_2022,
+  author       = "Lee, Jae Hee and Kerzel, Matthias and Ahrens, Kyra and Weber, Cornelius and Wermter, Stefan",
+  title        = "What is Right for Me is Not Yet Right for You: A Dataset for Grounding Relative Directions via Multi-Task Learning",
+  booktitle    = "International Joint Conference on Artificial Intelligence",
+  month        = "Jul",
+  year         = "2022",
+  url          = "https://arxiv.org/abs/2205.02671"
+}
+```
+```
+@InProceedings{ahrens_grida3d_2022,
+  author       = "Ahrens, Kyra and Kerzel, Matthias and Lee, Jae Hee and Weber, Cornelius and Wermter, Stefan",
+  title        = "Knowing Earlier what Right Means to You: A Comprehensive VQA Dataset for Grounding Relative Directions via Multi-Task Learning",
+  booktitle    = "IJCAI Workshop on Spatio-Temporal Reasoning and Learning",
+  month        = "Jul",
+  year         = "2022",
+  url          = "https://www2.informatik.uni-hamburg.de/wtm/publications/2022/AKLWW22/STRL_2022_Camera_Ready_Version.pdf"
+}
 ```

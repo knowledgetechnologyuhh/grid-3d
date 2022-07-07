@@ -85,7 +85,7 @@ cfg.TASK_SIZES.triple_classification = 166603
 # Knowing Earlier what Right Means to You: A Comprehensive VQA Dataset for Grounding Relative Directions via Multi-Task Learning
 [Paper](https://arxiv.org/abs/2207.02624) • [Dataset Download](ToBeInserted)
 
-This is our novel GRiD-A-3D dataset accepted for the First International Workshop on Spatio-Temporal Reasoning and Learning ([STRL 2022](https://strl2022.github.io)) at [IJCAI](https://ijcai-22.org). 
+This is our novel GRiD-A-3D dataset accepted for the First International Workshop on Spatio-Temporal Reasoning and Learning ([STRL 2022](https://strl2022.github.io)) at [IJCAI-ECAI 2022](https://ijcai-22.org) conference. 
 
 ## Environment Setup
 

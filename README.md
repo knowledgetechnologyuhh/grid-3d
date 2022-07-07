@@ -83,7 +83,7 @@ cfg.TASK_SIZES.triple_classification = 166603
 
 ---
 # Knowing Earlier what Right Means to You: A Comprehensive VQA Dataset for Grounding Relative Directions via Multi-Task Learning
-[Paper](https://www2.informatik.uni-hamburg.de/wtm/publications/2022/AKLWW22/STRL_2022_Camera_Ready_Version.pdf) • [Dataset Download](ToBeInserted)
+[Paper](https://arxiv.org/abs/2207.02624) • [Dataset Download](ToBeInserted)
 
 This is our novel GRiD-A-3D dataset accepted for the First International Workshop on Spatio-Temporal Reasoning and Learning ([STRL 2022](https://strl2022.github.io)) at [IJCAI](https://ijcai-22.org). 
 
@@ -91,7 +91,7 @@ This is our novel GRiD-A-3D dataset accepted for the First International Worksho
 
 You can set up your environment as described above, if you haven't done so yet. 
 
-## GRiD-3D Dataset
+## GRiD-A-3D Dataset
 
 Just click [here](ToBeInserted) to download the GRiD-A-3D dataset or run one of the following commands: 
 ### Ubuntu / Linux:
@@ -140,6 +140,6 @@ If you find our work on grounding relative directions useful, please cite our wo
   booktitle    = "IJCAI Workshop on Spatio-Temporal Reasoning and Learning",
   month        = "Jul",
   year         = "2022",
-  url          = "https://www2.informatik.uni-hamburg.de/wtm/publications/2022/AKLWW22/STRL_2022_Camera_Ready_Version.pdf"
+  url          = "https://arxiv.org/abs/2207.02624"
 }
 ```

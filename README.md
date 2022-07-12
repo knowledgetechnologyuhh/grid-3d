@@ -93,7 +93,7 @@ You can set up your environment as described above, if you haven't done so yet.
 
 ## GRiD-A-3D Dataset
 
-Just click [here](ToBeInserted) to download the GRiD-A-3D dataset or run one of the following commands: 
+Just click [here]([ToBeInserted](https://attachment.rrz.uni-hamburg.de/dedbd851/strl.zip)) to download the GRiD-A-3D dataset or run one of the following commands: 
 ### Ubuntu / Linux:
 ```
 wget https://attachment.rrz.uni-hamburg.de/dedbd851/strl.zip

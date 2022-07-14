@@ -107,12 +107,19 @@ curl -O https://attachment.rrz.uni-hamburg.de/dedbd851/strl.zip
 
 ## Running an Experiment
 
-Keep in mind to change the dataset path in the config file (the default is XXX):
+Keep in mind to change the dataset path in the config file:
 ```
 cfg.DATASET.PATH = "path/to/the/dataset/folder"
 ```
-If you have downloaded both GRiD-3D and GRiD-A-3D datasets, don't forget to adjust the path to the desired dataset every time you run a new experiment.
-
+If you have downloaded both GRiD-3D and GRiD-A-3D datasets, don't forget to adjust the path to the desired dataset every time you run a new experiment. Also, adjust the sizes of the tasks `train_film.py` or `train_mac.py` as follows:
+```
+cfg.TASK_SIZES.existence_prediction = 32288
+cfg.TASK_SIZES.orientation_prediction = 26317
+cfg.TASK_SIZES.link_prediction = 39867
+cfg.TASK_SIZES.relation_prediction = 71206
+cfg.TASK_SIZES.counting = 93882
+cfg.TASK_SIZES.triple_classification = 169388
+```
 ---
 
 ![Overview](images/grid-a-3d_overview.jpg)

@@ -111,7 +111,7 @@ Keep in mind to change the dataset path in the config file:
 ```
 cfg.DATASET.PATH = "path/to/the/dataset/folder"
 ```
-If you have downloaded both GRiD-3D and GRiD-A-3D datasets, don't forget to adjust the path to the desired dataset every time you run a new experiment. Also, adjust the sizes of the tasks `train_film.py` or `train_mac.py` as follows:
+If you have downloaded both GRiD-3D and GRiD-A-3D datasets, don't forget to adjust the path to the desired dataset every time you run a new experiment. Also, adjust the sizes of the tasks in `train_film.py` or `train_mac.py` as follows:
 ```
 cfg.TASK_SIZES.existence_prediction = 32288
 cfg.TASK_SIZES.orientation_prediction = 26317

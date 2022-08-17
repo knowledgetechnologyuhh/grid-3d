@@ -2,7 +2,7 @@ What is Right for Me is Not Yet Right for You:<br>A Dataset for Grounding Relati
 ========
 
 <!-- [Paper](https://arxiv.org/abs/2205.02671) • [Video](toBeInserted) • [BibTex](toBeInserted) • [Dataset Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip) -->
-[Paper](https://arxiv.org/abs/2205.02671) • [Dataset Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip)
+[Paper](https://arxiv.org/abs/2205.02671) • [Dataset Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/grid-3d.zip) • [BibTeX](https://www.ijcai.org/proceedings/2022/bibtex/145)
 
 This is the official repository associated with our [IJCAI-ECAI 2022](https://ijcai-22.org) paper, in which we present our novel VQA GRiD-3D (<u>**G**</u>rounding <u>**R**</u>elat<u>**i**</u>ve <u>**D**</u>irections in <u>**3D**</u>) dataset. The code was tested with python version 3.9 on Ubuntu 20.04.
 

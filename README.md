@@ -137,7 +137,7 @@ If you find our work on grounding relative directions useful, please cite our wo
   booktitle    = "International Joint Conference on Artificial Intelligence",
   month        = "Jul",
   year         = "2022",
-  url          = "https://arxiv.org/abs/2205.02671"
+  url          = "https://www.ijcai.org/proceedings/2022/0145.pdf"
 }
 ```
 ```
@@ -147,6 +147,6 @@ If you find our work on grounding relative directions useful, please cite our wo
   booktitle    = "IJCAI Workshop on Spatio-Temporal Reasoning and Learning",
   month        = "Jul",
   year         = "2022",
-  url          = "https://arxiv.org/abs/2207.02624"
+  url          = "ceur-ws.org/Vol-3190/paper4.pdf"
 }
 ```
